@@ -1,0 +1,10 @@
+bootJar { enabled = false }
+jar { enabled = true }
+
+dependencies {
+
+    compile project(':ideation-platform-api-common')
+    compile project(':ideation-platform-api-logging')
+    compile project(':ideation-platform-api-organizations')
+
+}
